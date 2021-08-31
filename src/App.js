@@ -16,7 +16,7 @@ function App() {
       experencia_laboral_technologies_used: "Tecnologias usadas:",
 
       experencia_laboral_title_job1: "Ingeniero Full MEAN Stack",
-      experencia_laboral_date_job1: "Agosto 2020 - Presente",
+      experencia_laboral_date_job1: "Agosto 2020 - Agosto 2021",
       experencia_laboral_desc_job1: `Si en la anterior empresa empecé mi aventura como desarrollador de software, en esta crecí y sigo creciendo
       exponencialmente. Soy el encargado de mantener varios de sus proyectos, y empezar otros desde 0. Desde la parte
       de front usando tecnologias como Angular,RxJS,ES6-Beyond JS, entre otras tantas junto a tecnologias del backend
@@ -47,6 +47,17 @@ function App() {
       experencia_laboral_list_item_2_job3: "Uso de todas las herramientas de ofimatica disponibles..",
       experencia_laboral_list_item_3_job3: "Contabilidad de empresa y flujo de caja.",
       experencia_laboral_list_item_4_job3: "Gestión de reformas vehiculares",
+
+      experencia_laboral_title_job4: "Senior frontend developer",
+      experencia_laboral_date_job4: "Agosto 2021 - Presente",
+      experencia_laboral_desc_job4: `En este empresa comencé mi aventura como senior developer por primera vez, con más responsabilidades que nunca y además en un entorno mucho más dinamico y sobretodo internacional, tratando con clientes de todo el mundo con proyectos y ideas desafiantes!`,
+
+      experencia_laboral_competencias_desc_job4:
+        "Durante mi todavia corta instancia en Aratech me desarrollé como profesional en proyectos IOT,gestion de logistica y sobretodo proyectos internacionales con entorno bilingüe.",
+      experencia_laboral_list_item_1_job4: "Creación desde 0 de proyectos de IOT y definición de estructura.",
+      experencia_laboral_list_item_2_job4: "Formación y entrevista tecnica a nuevos compañeros de equipo.",
+      experencia_laboral_list_item_3_job4: "Desarollo responsive y mobile first.",
+      experencia_laboral_list_item_4_job4: "Control de versión y CI/CD.",
 
       habilidades: "Habilidades",
       anyo: "año",
@@ -86,7 +97,7 @@ function App() {
       experencia_laboral_technologies_used: "Technologies used:",
 
       experencia_laboral_title_job1: "Fullstack MEAN engineer",
-      experencia_laboral_date_job1: "August 2020 - Present",
+      experencia_laboral_date_job1: "August 2020 - August 2021",
       experencia_laboral_desc_job1: `If in the previous company I started my adventure as a software developer, in this one I grew and continue to grow
       exponentially. I am in charge of maintaining several of your projects, and starting others from scratch.
       of front using technologies such as Angular, RxJS, ES6-Beyond JS, among many others along with backend technologies
@@ -99,6 +110,17 @@ function App() {
       experencia_laboral_list_item_2_job1: "Development of totally new projects from start to end.",
       experencia_laboral_list_item_3_job1: "Responsive & user friendly development.",
       experencia_laboral_list_item_4_job1: "Version control and CI/CD.",
+
+      experencia_laboral_title_job4: "Senior frontend developer",
+      experencia_laboral_date_job4: "August 2021 - Present",
+      experencia_laboral_desc_job4: `In this company I started my adventure as a senior developer for the first time, with more responsibilities than ever and also in a much more dynamic and above all international environment, dealing with clients from all over the world with challenging projects and ideas!`,
+
+      experencia_laboral_competencias_desc_job4:
+        "During my still short stay at Aratech I developed as a professional in IOT projects, logistics management and especially international projects with a bilingual environment.",
+      experencia_laboral_list_item_1_job4: "Creation from scratch of IOT projects and definition of structure.",
+      experencia_laboral_list_item_2_job4: "Training and technical interview with new teammates.",
+      experencia_laboral_list_item_3_job4: "Responsive development and mobile first.",
+      experencia_laboral_list_item_4_job4: "Version control and CI / CD.",
 
       experencia_laboral_title_job2: "Junior web developer",
       experencia_laboral_date_job2: "March 2019 - August 2020",
@@ -145,7 +167,7 @@ function App() {
     },
   });
 
-  strings.setLanguage("es");
+  strings.setLanguage("en");
 
   return (
     <div className="App">
@@ -234,6 +256,55 @@ function App() {
                   <h2 className="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{strings.experencia_laboral_label}</h2>
                   <div className="resume-section-content">
                     <div className="resume-timeline position-relative">
+                      <article className="resume-timeline-item position-relative pb-5">
+                        <div className="resume-timeline-item-header mb-2">
+                          <div className="d-flex flex-column flex-md-row">
+                            <h3 className="resume-position-title font-weight-bold mb-1">{strings.experencia_laboral_title_job4}</h3>
+                            <div className="resume-company-name ml-auto">Aratech</div>
+                          </div>
+                          <div className="resume-position-time">{strings.experencia_laboral_date_job4}</div>
+                        </div>
+                        <div className="resume-timeline-item-desc">
+                          <p>{strings.experencia_laboral_desc_job4}</p>
+                          <h4 className="resume-timeline-item-desc-heading font-weight-bold">
+                            {strings.experencia_laboral_competencias_label}
+                          </h4>
+                          <p>{strings.experencia_laboral_competencias_desc_job4}</p>
+                          <ul>
+                            <li>{strings.experencia_laboral_list_item_1_job4}</li>
+                            <li>{strings.experencia_laboral_list_item_2_job4}</li>
+                            <li>{strings.experencia_laboral_list_item_3_job4}</li>
+                            <li>{strings.experencia_laboral_list_item_4_job4}</li>
+                          </ul>
+                          <h4 className="resume-timeline-item-desc-heading font-weight-bold">
+                            {strings.experencia_laboral_technologies_used}
+                          </h4>
+                          <ul className="list-inline">
+                            <li className="list-inline-item">
+                              <span className="badge badge-primary badge-pill">Angular</span>
+                            </li>
+                            <li className="list-inline-item">
+                              <span className="badge badge-primary badge-pill">GraphQL</span>
+                            </li>
+                            <li className="list-inline-item">
+                              <span className="badge badge-primary badge-pill">NgRx</span>
+                            </li>
+                            <li className="list-inline-item">
+                              <span className="badge badge-primary badge-pill">Vanilla Javascript</span>
+                            </li>
+                            <li className="list-inline-item">
+                              <span className="badge badge-primary badge-pill">Webpack</span>
+                            </li>
+                            <li className="list-inline-item">
+                              <span className="badge badge-primary badge-pill">HTML/SASS</span>
+                            </li>
+                            <li className="list-inline-item">
+                              <span className="badge badge-primary badge-pill">Docker/Docker-compose</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </article>
+
                       <article className="resume-timeline-item position-relative pb-5">
                         <div className="resume-timeline-item-header mb-2">
                           <div className="d-flex flex-column flex-md-row">
