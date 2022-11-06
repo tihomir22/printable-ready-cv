@@ -221,7 +221,7 @@ I work in a multidisciplinary, multilingual and international environment.`,
     },
   });
 
-  strings.setLanguage("en");
+  strings.setLanguage("es");
 
   return (
     <div className="App">
