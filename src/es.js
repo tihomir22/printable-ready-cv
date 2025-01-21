@@ -107,4 +107,23 @@ export const es = {
   mikosava: "mikosava.com",
   mikosava_desc:
     "Plataforma para el intercambio OTC/P2P de criptomonedas de forma descentralizada",
+  experencia_laboral_title_job7: "Senior Fullstack Developer",
+  experencia_laboral_date_job7: "Febrero 2024 - Presente",
+  experencia_laboral_desc_job7:
+    "Actualmente trabajo como Senior Fullstack Developer en Ecovium, utilizando mi experiencia en tecnologías frontend y backend para entregar soluciones de software escalables y de alta calidad. Participo activamente en decisiones arquitectónicas, mentoría y colaboración entre equipos.",
+  experencia_laboral_competencias_desc_job7:
+    "En Ecovium, he estado involucrado en la creación de soluciones de software para logística, gestión de cadenas de suministro y otras aplicaciones empresariales de alto nivel, con un enfoque en el rendimiento, la escalabilidad y el mantenimiento.",
+  experencia_laboral_list_item_1_job7:
+    "Desarrollo de aplicaciones empresariales utilizando Angular, RxJS y TypeScript para soluciones frontend.",
+  experencia_laboral_list_item_2_job7:
+    "Implementación de sistemas backend robustos utilizando C#, .NET y GraphQL.",
+  experencia_laboral_list_item_3_job7:
+    "Colaboración en proyectos entre equipos, asegurando una integración fluida entre microservicios y aplicaciones frontend.",
+  experencia_laboral_list_item_4_job7:
+    "Revisión de código, implementación de pruebas unitarias e integradas, y aseguramiento del cumplimiento de estándares de calidad en el código.",
+  experencia_laboral_list_item_5_job7:
+    "Mentoría de desarrolladores junior y fomento de una cultura de mejora continua dentro del equipo.",
+  experencia_laboral_list_item_6_job7:
+    "Contribución a procesos DevOps, incluyendo pipelines CI/CD y contenedorización con Docker y Kubernetes."
+
 };

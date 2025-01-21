@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
-import "./App.css";
-import "./pillar-1.css";
 import LocalizedStrings from "react-localization";
-import * as es from "./es";
+import "./App.css";
 import * as en from "./en";
+import * as es from "./es";
+import "./pillar-1.css";
 
 function App() {
   let strings = new LocalizedStrings({
@@ -11,7 +10,7 @@ function App() {
     en: en.en,
   });
 
-  strings.setLanguage("en");
+  strings.setLanguage("es");
 
   return (
     <div className="App">
@@ -42,7 +41,7 @@ function App() {
                   <h1 className="name mt-0 mb-1 text-white text-uppercase text-uppercase">
                     Tihomir Stoychev Stoychev
                   </h1>
-                  <div className="title mb-3">Senior Frontend Developer</div>
+                  <div className="title mb-3">Senior Fullstack Developer</div>
                   <ul className="list-unstyled">
                     <li className="mb-2">
                       <a href="#">
@@ -126,6 +125,70 @@ function App() {
                   </h2>
                   <div className="resume-section-content">
                     <div className="resume-timeline position-relative">
+                      <article className="resume-timeline-item position-relative pb-5">
+                        <div className="resume-timeline-item-header mb-2">
+                          <div className="d-flex flex-column flex-md-row">
+                            <h3 className="resume-position-title font-weight-bold mb-1">
+                              {strings.experencia_laboral_title_job7}
+                            </h3>
+                            <div className="resume-company-name ml-auto">Ecovium</div>
+                          </div>
+                          <div className="resume-position-time">
+                            {strings.experencia_laboral_date_job7}
+                          </div>
+                          <div className="resume-timeline-item-desc">
+                            <p>{strings.experencia_laboral_desc_job7}</p>
+                            <h4 className="resume-timeline-item-desc-heading font-weight-bold">
+                              {strings.experencia_laboral_competencias_label}
+                            </h4>
+                            <p>{strings.experencia_laboral_competencias_desc_job7}</p>
+                            <ul>
+                              <li>{strings.experencia_laboral_list_item_1_job7}</li>
+                              <li>{strings.experencia_laboral_list_item_2_job7}</li>
+                              <li>{strings.experencia_laboral_list_item_3_job7}</li>
+                              <li>{strings.experencia_laboral_list_item_4_job7}</li>
+                              <li>{strings.experencia_laboral_list_item_5_job7}</li>
+                              <li>{strings.experencia_laboral_list_item_6_job7}</li>
+                            </ul>
+                            <h4 className="resume-timeline-item-desc-heading font-weight-bold">
+                              {strings.experencia_laboral_technologies_used}
+                            </h4>
+                            <ul className="list-inline">
+                              <li className="list-inline-item">
+                                <span className="badge badge-primary badge-pill">Angular</span>
+                              </li>
+                              <li className="list-inline-item">
+                                <span className="badge badge-primary badge-pill">RxJS</span>
+                              </li>
+                              <li className="list-inline-item">
+                                <span className="badge badge-primary badge-pill">TypeScript</span>
+                              </li>
+                              <li className="list-inline-item">
+                                <span className="badge badge-primary badge-pill">GraphQL</span>
+                              </li>
+                              <li className="list-inline-item">
+                                <span className="badge badge-primary badge-pill">C#</span>
+                              </li>
+                              <li className="list-inline-item">
+                                <span className="badge badge-primary badge-pill">.NET</span>
+                              </li>
+                              <li className="list-inline-item">
+                                <span className="badge badge-primary badge-pill">HTML/SCSS</span>
+                              </li>
+                              <li className="list-inline-item">
+                                <span className="badge badge-primary badge-pill">Jest</span>
+                              </li>
+                              <li className="list-inline-item">
+                                <span className="badge badge-primary badge-pill">Docker</span>
+                              </li>
+                              <li className="list-inline-item">
+                                <span className="badge badge-primary badge-pill">Kubernetes</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </article>
+
                       <article className="resume-timeline-item position-relative pb-5">
                         <div className="resume-timeline-item-header mb-2">
                           <div className="d-flex flex-column flex-md-row">
@@ -229,7 +292,7 @@ function App() {
                               {strings.experencia_laboral_title_job5}
                             </h3>
                             <div className="resume-company-name ml-auto">
-                               Ecovium 
+                              Ecovium
                             </div>
                           </div>
                           <div className="resume-position-time">
@@ -814,7 +877,7 @@ function App() {
                         data-fa-transform="shrink-2"
                       ></i>
                       <div className="resume-award-name">
-                        <a href="https://orimgames.com/">{strings.orimgames}</a>
+                        <a href="https://cryptoquestgames.com/">Crypto Quest Games</a>
                       </div>
                       <div className="resume-award-desc">
                         {strings.orimgames_desc}
@@ -826,10 +889,10 @@ function App() {
                         data-fa-transform="shrink-2"
                       ></i>
                       <div className="resume-award-name">
-                        <a href="https://mikosava.com/">{strings.mikosava}</a>
+                        <a href="https://urukbartas.com/">Uruk Bartas</a>
                       </div>
                       <div className="resume-award-desc">
-                        {strings.mikosava_desc}
+                        A play to earn NFT RPG game.
                       </div>
                     </li>
                   </ul>

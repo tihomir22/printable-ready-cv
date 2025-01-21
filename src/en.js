@@ -54,7 +54,7 @@ export const en = {
   experencia_laboral_list_item_4_job6:
     "Working in an international environment following Swiss/German work methodologies.",
 
-  experencia_laboral_date_job6: "November 2022 - Present",
+  experencia_laboral_date_job6: "November 2022 - January 2024",
 
   experencia_laboral_title_job2: "Junior web developer",
   experencia_laboral_date_job2: "March 2019 - August 2020",
@@ -112,4 +112,24 @@ export const en = {
     "A casual mobile gaming company that rewards players with cryptocurrencies.",
   mikosava: "mikosava.com",
   mikosava_desc: "A decentralized OTC/P2P cryptocurrency exchange platform.",
+
+  experencia_laboral_title_job7: "Senior Fullstack Developer",
+  experencia_laboral_date_job7: "February 2024 - Present",
+  experencia_laboral_desc_job7:
+    "Currently, I work as a Senior Fullstack Developer at Ecovium, utilizing my expertise in frontend and backend technologies to deliver scalable and high-quality software solutions. I actively participate in architectural decisions, mentoring, and cross-team collaboration.",
+  experencia_laboral_competencias_desc_job7:
+    "At Ecovium, I have been involved in creating software solutions for logistics, supply chain management, and other enterprise-grade applications, focusing on performance, scalability, and maintainability.",
+  experencia_laboral_list_item_1_job7:
+    "Developing enterprise-level applications using Angular, RxJS, and TypeScript for frontend solutions.",
+  experencia_laboral_list_item_2_job7:
+    "Implementing robust backend systems using C#, .NET, and GraphQL.",
+  experencia_laboral_list_item_3_job7:
+    "Collaborating on cross-team projects, ensuring smooth integration between microservices and frontend applications.",
+  experencia_laboral_list_item_4_job7:
+    "Conducting code reviews, implementing unit and integration tests, and ensuring adherence to high-quality coding standards.",
+  experencia_laboral_list_item_5_job7:
+    "Mentoring junior developers and fostering a culture of continuous improvement within the team.",
+  experencia_laboral_list_item_6_job7:
+    "Contributing to DevOps processes, including CI/CD pipelines and containerization with Docker and Kubernetes."
+
 };
